@@ -1,0 +1,24 @@
+In Liao Xuefeng's tutorial (https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000)
+it will not tell you that when you first create a git repository, you need to
+do the following things:
+
+1. git init
+2. git config user.name "someone"
+3. git config user.email "someone@someplace.com"
+4. git add *
+5. git commit -m "some init msg"
+
+Actually Liao skip 2 and 3, which will not work on my computer.
+
+In this project, I use the name "leo" and email "jierenyingwuzhe@gmail.com"
+
+在使用上面的命令2和3的时候，如果加上 --global,i.e.:
+  git config --global user.name "someone"
+  git config --global user.email "someone@someplace.com"
+则git会在这台电脑上所有的git文件夹里使用这个配置。但是这是在你没有specify的情况下。
+像这个文件夹，有专门specify过，是使用leo这个名字，以及是jierenyingwuzhe@gmail.com这个邮箱
+的，就不会受到上面那个命令的影响。似乎是这样的。更多的需要今后进行验证才知道。
+
+发现其实廖神有提到过2和3命令。是我看书不仔细。
+如果没有加global，则每次新建一个git目录都要重新specify一次。但如果有加global，则会自
+动使用global指定的身份。
