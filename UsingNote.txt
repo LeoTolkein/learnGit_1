@@ -22,3 +22,6 @@ In this project, I use the name "leo" and email "jierenyingwuzhe@gmail.com"
 发现其实廖神有提到过2和3命令。是我看书不仔细。
 如果没有加global，则每次新建一个git目录都要重新specify一次。但如果有加global，则会自
 动使用global指定的身份。
+
+使用git push origin master
+把本地master分支支的最新修改推送至至GitHub
