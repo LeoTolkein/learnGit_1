@@ -25,3 +25,6 @@ In this project, I use the name "leo" and email "jierenyingwuzhe@gmail.com"
 
 使用git push origin master
 把本地master分支支的最新修改推送至至GitHub
+
+git log --graph --pretty=oneline --abbrev-commit
+可以在命令行下显示图形化的branch（牛逼爆了）
